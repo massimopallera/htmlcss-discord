@@ -183,6 +183,10 @@ h2{
     height: 100%;
 }
 
+.b-transparent{
+    /* border: 3px solid var(--light-color); */
+}
+
 /* COLORS */
 .bg-primary{
     background-color: var(--primary-color);
@@ -274,8 +278,24 @@ footer{
 }
 /* #endregion footer */
 
-.prova{
-    /* background-color: #3161e0; */
+.wave{
     width: 100vw;
-    fill: lightblue;
+    display: block;
+}
+.r-180{
+    rotate: 180deg;
+}
+#keep-in-touch{
+    padding: 0 10rem;
+}
+.bg-stars{
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.bg-accent{
+    background-color: #8ea1e1;
 }
