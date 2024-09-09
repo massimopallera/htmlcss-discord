@@ -11,6 +11,7 @@
     --light-color: #f6f6f6;
     --lighter-color: #fff;
     --dark-color: #23272a;
+    --accent-color: #8ea1e1;
 
     --font-light-color:#fff;
     --font-dark-color:#000;
@@ -20,8 +21,9 @@ img{
     max-width: 100%;
 }
 
-a, a::after, a:hover, a:visited{
+a, a::before, a::after, a:hover, a:visited{
     text-decoration: none;
+    color: var(--light-color);
 }
 
 h1{
@@ -31,6 +33,9 @@ h1{
 h2{
     /* text-align: justify; */
     font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
 }
 /* #endregion common */
 
@@ -269,7 +274,7 @@ header{
 }
 /* #region footer */
 footer{
-    /* background-color: var(--dark-color); */
+    background-color: var(--dark-color);
     .row{
         justify-content: space-between;
         align-items: start;
@@ -296,8 +301,16 @@ footer{
 }
 
 .bg-accent{
-    background-color: #8ea1e1;
+    background-color: var(--accent-color);
 }
 .flag{
     width: 1.3rem;
+}
+
+.bord-1px{
+    border-top: 1px solid var(--accent-color);
+}
+
+.reference{
+    line-height: 1.6rem;
 }
