@@ -6,9 +6,10 @@
 }
 
 :root{
-    --primary-color: blue;
-    --light-color: grey;
-    --dark-color: rgb(28, 26, 49);
+    --primary-color: #3161e0;
+    --light-color: #f6f6f6;
+    --lighter-color: #fff;
+    --dark-color: #23272a;
 }
 
 img{
@@ -107,6 +108,10 @@ img{
     margin: auto;
     width: 70%;
 }
+.ali-items{
+    align-items: center;
+}
+
 /* #region width */
 .w-20{
     width: 20%;
@@ -174,7 +179,8 @@ header{
     }
     .links{
         flex-grow: 2;
-        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
     }
     .login{
         text-align: right;
