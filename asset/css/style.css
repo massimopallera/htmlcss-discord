@@ -269,11 +269,10 @@ header{
 }
 /* #region footer */
 footer{
-    background-color: var(--dark-color);
+    /* background-color: var(--dark-color); */
     .row{
         justify-content: space-between;
-        align-items: center;
-        height: 50px;
+        align-items: start;
     }
 }
 /* #endregion footer */
@@ -298,4 +297,7 @@ footer{
 
 .bg-accent{
     background-color: #8ea1e1;
+}
+.flag{
+    width: 1.3rem;
 }
