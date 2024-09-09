@@ -145,7 +145,8 @@ a, a::after, a:hover, a:visited{
     padding: 1rem 0;
 }
 .py-5{
-    padding: .5rem 0;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 /* #endregion padding */
 
@@ -161,8 +162,15 @@ a, a::after, a:hover, a:visited{
     height: 100%;
 }
 
-nav{
+.bg-primary{
     background-color: var(--primary-color);
+}
+
+.text-light{
+    color: var(--font-light-color);
+}
+.text-dark{
+    color: var(--font-dark-color);
 }
 /* #endregion common */
 
@@ -190,15 +198,22 @@ header{
 .links a{
     color: var(--font-light-color);
 }
-.login-btn{
-    padding: 0.5rem 0.8rem;
+.rounded{
+    /* padding: 0.5rem 0.8rem; */
     border-radius: 9999px;
     border: 1px solid transparent;
 }
+.px-8{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
 /* #endregion header */
 
 /* #region main */
-
+.hero-bg{
+    /* background-image: url("../img/jumbo.png"); */
+}
 /* #endregion main */
 
 /* #region footer */
