@@ -36,6 +36,13 @@ h2{
 }
 h3{
     font-size: 1.5rem;
+    font-weight: bolder;
+}
+h3,h4{
+    color: var(--primary-color);
+}
+h5{
+    display: inline;
 }
 /* #endregion common */
 
@@ -303,8 +310,12 @@ footer{
 .bg-accent{
     background-color: var(--accent-color);
 }
-.flag{
-    width: 1.3rem;
+.flag{   
+    padding: 1.2rem 0;
+    & img{
+        margin-right: 5px;
+        width: 1.3rem;
+    }
 }
 
 .bord-1px{
@@ -313,4 +324,12 @@ footer{
 
 .reference{
     line-height: 1.6rem;
+}
+
+.other-socials{
+    vertical-align: middle;
+    & *{
+        margin: 0.5rem;
+        
+    }
 }
