@@ -29,7 +29,7 @@ h1{
     font-weight: bold;
 }
 h2{
-    text-align: justify;
+    /* text-align: justify; */
     font-size: 2rem;
 }
 /* #endregion common */
@@ -193,6 +193,9 @@ h2{
 .bg-lighter{
     background-color: var(--lighter-color);
 }
+.bg-light{
+    background-color: var(--light-color);
+}
 
 .text-light{
     color: var(--font-light-color);
@@ -237,10 +240,10 @@ header{
     background-size: cover;
     padding: 10rem 0;
 }
-.talk-space{
+.hero-title{
     text-align: center;
 }
-p.talk-space{
+.hero-p{
     font-size: 1.3rem;
     margin: 3rem 0;
 }
@@ -249,8 +252,17 @@ p.talk-space{
     font-size: 1.2rem;
     margin: 0 2rem;
 }
+.title{
+    font-size: 2.4rem;
+}
+.desc{
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
 /* #endregion main */
-
+.txt-al-c{
+    text-align: center;
+}
 /* #region footer */
 footer{
     background-color: var(--dark-color);
@@ -261,3 +273,9 @@ footer{
     }
 }
 /* #endregion footer */
+
+.prova{
+    /* background-color: #3161e0; */
+    width: 100vw;
+    fill: lightblue;
+}
