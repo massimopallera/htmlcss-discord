@@ -8,6 +8,11 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 }
 
+
+body{
+    min-width: 1440px;
+}
+
 :root{
     --primary-color: #3161e0;
     --light-color: #f6f6f6;
@@ -235,10 +240,6 @@ header{
     .logo{
         text-align: left;
     }
-}
-.logo > img{
-    line-height: 100%;
-    vertical-align: middle;
 }
 /* #endregion header */
 
